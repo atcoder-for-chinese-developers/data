@@ -1,0 +1,19 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "env-cmd -f .env ts-node --files --esm src/index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.4.6",
+    "env-cmd": "^10.1.0",
+    "mysql2": "^3.6.0",
+    "node-fetch": "^3.3.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "type": "module"
+}
